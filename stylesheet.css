@@ -1,0 +1,425 @@
+/*共通レイアウト*/
+
+@charset "utf-8";
+
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #788d98;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+header{
+  width: 960px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+.logo{
+  font-size: 35px;
+  font-family: 'Bitter', serif;
+  background-color: #ffffff;
+  float: left;
+  margin-top: 50px;
+  vertical-align: bottom;
+  height: 70px;
+  width: 260px;
+  display: block;
+
+}
+
+.global-nav{
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li{
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a{
+  color: #ffffff;
+}
+
+.global-nav li a:hover{
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.content{
+  width: 960px;
+  margin: 150px auto;
+}
+
+.btn a{
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 185px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+
+.btn a:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #009cd3;
+}
+
+.icon:before{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sidebar{
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Bitter', serif;
+  background-color: #ffffff;
+}
+
+.sidebar h2{
+  margin-bottom: 10px;
+}
+
+.sidebar ul{
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a{
+  color: #333333;
+}
+
+/*index*/
+#wrap{
+  clear: both;
+}
+
+#index{
+  background-image: url("background-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*.content realized*/
+
+#index h1{
+  line-height: 1.5;
+  font-size: 60px;
+  color: #ffffff;
+  font-family: 'Bitter', serif;
+}
+
+#index span{
+  color: #66ff33;
+  font-size: 80px;
+}
+
+#index p{
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/*.btn realized*/
+
+#index footer{
+  width: 960px;
+  text-align: left;
+  color: #ffffff;
+  margin: 150px auto 0 auto;
+  background-color: transparent;
+}
+
+footer small{
+  font-size: 12px;
+}
+
+/*about*/
+#about{
+  background-image: url("bg-about.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#about-wrap{
+  clear: both;
+  background-color: #bce1df;
+  margin-top: 220px;
+  padding: 35px 0;
+}
+
+.main-center{
+  width: 940px;
+  margin: 0 auto;
+}
+
+#about h1{
+  font-family: 'Bitter', serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+#about h2{
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+
+/*.icon realized*/
+
+#about .profile-txt{
+  width: 540px;
+  float: left;
+}
+
+#about .profile-txt span{
+  font-weight: bold;
+}
+
+#about .profile-img{
+  height: 300px;
+  width: 260px;
+  float: right;
+  padding-right: 100px;
+}
+
+/*.clearfix realized*/
+
+section{
+  margin-bottom: 35px;
+}
+
+#about .career th{
+  width: 240px;
+  background-color: #f0f0f0f0;
+  padding: 12px 0;
+  border: 2px solid #cccccc;
+}
+
+#about .career td{
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff
+}
+
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+footer{
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: #767671;
+}
+
+#index #wrap{
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+#index h1{
+  font-size: 100px;
+  line-height: 1;
+  color:#ffffff;
+  font-family: 'Bitter', serif;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#portfolio{
+  background-image: url("bg-portfolio.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#portfolio #wrap{
+  background-color: #ffffff;
+  font-family: 'Bitter', serif;
+}
+
+.main{
+  width:700px;
+  margin: 0 10px;
+  float: left;
+  background-color: #ffffff;
+}
+
+/*.sidebar realized*/
+
+#portfolio a img{
+  width: 700px;
+  height: 400px;
+}
+
+a img:hover{
+  opacity: 0.8;
+}
+
+/*fishing*/
+#fishing{
+  background-image: url("bg-fishing.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#fishing #wrap{
+  background-color: #ffffff;
+  font-family: 'Bitter', serif;
+}
+
+#fishing .sidebar{
+  margin-right: 250px;
+}
+
+#fishing img{
+  width: 200px;
+  height: 150px;
+}
+
+#fishing .photograh-list li{
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#fishing .photograh-list li:nth-child(3n){
+  margin-right: 0;
+}
+
+/*foods*/
+#foods #wrap{
+  background-color: #ffffff;
+  font-family: 'Bitter', serif;
+}
+
+#foods .sidebar{
+  margin-right: 250px;
+}
+
+#foods{
+  background-image: url("bg-foods.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#foods img{
+  width: 200px;
+  height: 150px;
+}
+
+#foods .photograh-list li{
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#foods .photograh-list li:nth-child(3n){
+  margin-right: 0;
+}
+
+/*programing*/
+#programing #wrap{
+  background-color: #ffffff;
+  font-family: 'Bitter', serif;
+}
+
+#programing .sidebar{
+  margin-right: 250px;
+}
+
+#programing{
+  background-image: url("bg-programing.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#programing img{
+  width: 650px;
+  height: 400px;
+}
+
+/*contact*/
+#contact #wrap{
+  background-color: #bce1df;
+  font-family: 'Bitter', serif;
+}
+
+#contact{
+  background-image: url("bg-contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.contact{
+  text-align: center;
+}
+
+#contact ul{
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#contact ul li{
+  display: inline-block;
+  margin: 10px 30px;
+}
